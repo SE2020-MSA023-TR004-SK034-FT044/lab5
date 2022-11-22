@@ -1,0 +1,24 @@
+$mycolour:black ;
+$mycolour2:blue ;
+$mycolour3:grey;
+
+.gradient-custom {
+    background: $mycolour;
+    background: -webkit-linear-gradient(to bottom right, $mycolour, $mycolour2);
+    background: linear-gradient(to bottom right, $mycolour3, $mycolour)
+}
+
+.card-registration .select-input.form-control[readonly]:not([disabled]) {
+    font-size: 1rem;
+    line-height: 2.15;
+    padding-left: .75em;
+    padding-right: .75em;
+}
+
+.card-registration .select-arrow {
+    top: 13px;
+}
+
+*{
+    font-family: cursive;
+}   

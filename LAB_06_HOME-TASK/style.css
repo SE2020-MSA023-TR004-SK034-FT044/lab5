@@ -1,0 +1,15 @@
+.gradient-custom {
+    background: black;
+    background: -webkit-linear-gradient(to bottom right, black, blue);
+    background: linear-gradient(to bottom right, grey, black)
+}
+
+
+
+.card-registration .select-arrow {
+    top: 13px;
+}
+
+*{
+    font-family: cursive;
+}   
